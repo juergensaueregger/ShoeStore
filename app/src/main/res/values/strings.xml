@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">ShoeStore</string>
+    <string name="email_label">E-mail:</string>
+    <string name="password_label">Password:</string>
+    <string name="email_hint">Please enter your email-address</string>
+    <string name="password_hint">Please enter a password</string>
+    <string name="login_screen_title">Login</string>
+    <string name="sign_in_bt_text">Sign In</string>
+    <string name="subscribe_bt_text">Subscribe</string>
+    <string name="welcome_title">Welcome</string>
+    <string name="next_bt_text">Next</string>
+    <string name="welcome_message">Hello, fellow shoe lovers. \n
+Welcome to the world of tasteful shoes. \n
+We have them all! \n
+But if there is the possibility, how slim it will be, you can not find your desired shoe.
+You can add it!</string>
+    <string name="instruction_title">Instructions</string>
+    <string name="instruction_text">You can watch a list of shoes, \n and more importantly you can add new shoes to the list. \n Just press the \"Add new shoes\" Button and fill out the necessary details.\n Happy shoe-watching!</string>
+    <string name="detail_title_text">Add your new shoe</string>
+    <string name="detail_name_label_text">Name:</string>
+    <string name="detail_description_label_tv">Description</string>
+    <string name="detail_size_label_text">Size:</string>
+    <string name="detail_company_label_text">Company:</string>
+    <string name="detail_company_hint">company</string>
+    <string name="detail_size_hint">45.5</string>
+    <string name="detail_description_hint">description</string>
+    <string name="detail_name_hint">name</string>
+    <string name="detail_cancle_bt_text">Cancle</string>
+    <string name="detail_save_bt_text">Save</string>
+</resources>
