@@ -30,7 +30,7 @@ class ShoeDetailFragment  : Fragment() {
             false
         )
 
-        //binding.activityViewModel = viewModel
+        binding.activityViewModel = viewModel
         binding.detailSaveBt.setOnClickListener {
             viewModel.addShoe()
             findNavController().navigateUp()

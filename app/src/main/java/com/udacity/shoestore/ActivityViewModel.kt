@@ -20,9 +20,10 @@ class ActivityViewModel: ViewModel() {
     }
 
     init{
+        shoes.value = mutableListOf<Shoe>()
         shoes.value?.add(Shoe("Gucci Must have",32.0, "Gucci", "You want it, you need it, you should have it!"))
         shoes.value?.add(Shoe("Working Boots",45.0, "Caterpilla", "be a dirty boy..."))
-        Timber.i("Wo bin ich")
+
     }
 
 }
