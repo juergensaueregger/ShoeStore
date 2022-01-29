@@ -15,6 +15,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import com.udacity.shoestore.databinding.ShoeListFragmentBinding
 import com.udacity.shoestore.models.Shoe
+import timber.log.Timber
 
 
 class ShoeListFragment : Fragment() {
@@ -31,9 +32,9 @@ class ShoeListFragment : Fragment() {
             container,
             false
         )
-
+        Timber.i("$viewModel")
         viewModel.shoes.observe(viewLifecycleOwner, Observer {
-
+            Timber.i("${it}")
             it.forEach { shoe ->
                 binding.shoesListLayout.addView(createListElement(shoe))
             }
@@ -42,9 +43,6 @@ class ShoeListFragment : Fragment() {
         binding.floatingActionButton.setOnClickListener {
             findNavController().navigate(ShoeListFragmentDirections.actionShoeListFragmentToShoeDetailFragment())
         }
-
-
-
 
         return binding.root
     }
